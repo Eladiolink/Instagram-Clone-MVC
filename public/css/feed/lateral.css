@@ -1,0 +1,55 @@
+/* Lateral */
+#lateral{
+    display: block;
+    width: 293px;
+    height: 100%;
+}
+
+#user{
+ display:flex;
+ align-items: center;
+}
+
+#user a{
+    font-weight: bold;
+    font-size:15px;
+    color: black
+}
+
+#user small{
+    font-size: 12px;
+}
+
+#user img{
+ width: 56px;
+ height: 56px;
+ border-radius: 56px;
+ object-fit: cover;
+}
+ 
+#user .img-follow{
+    width: 32px;
+    height: 32px;
+}
+#user div{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#sugestions h5{
+    color: #969696
+}
+
+.follow{
+    margin-top:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.follow a{
+    font-size: small;
+    font-weight: bold;
+    color: #1fa2f8;
+}

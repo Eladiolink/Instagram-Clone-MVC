@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/index/cadastrar.css">
+    <link rel="stylesheet" href="./css/index/footer.css">
+</head>
+<body>
+    <div id="content">
+
+        <main>
+            <div>
+                <div id="singup-box">
+                    <img src="./img/logo.png" alt="">
+                    
+                    <p align="center">
+                        Cadastre-se para ver fotos e vídeos dos seus amigos.
+                    </p>
+
+                    <a id="login-facebook" href="#">
+                        <img src="./img/facebook_singup.png"><span id="login-facebook-text">Entrar com o Facebook </span>
+                     </a>
+
+                     <div id="ou">   
+                        <span class="line"></span><span id="ou-text">OU</span><span class="line"></span>
+                      </div>
+
+                    <form action="/cadastrar" method="POST">
+                      <div id="input-box">
+                          <input name="email" type="text" required placeholder="Telefone do celular ou email">
+                          <input name="nome" type="password" required placeholder="Nome completo">
+                          <input name="usuario" type="text" required placeholder="Nome de usuário">
+                          <input name="senha" type="password" required placeholder="Senha">
+                        </div>
+                  
+                        <button id="login" type="submit">Cadastre-se</button>
+                        
+                        
+                    </form>
+              
+                    <small align="center">Ao se cadastrar, você concorda com nossos <strong>Termos, Política de Dados e Política de Cookies.</strong></small>
+                     
+                   
+              
+                    
+                  </div>
+                  
+                  <div id="login-box">
+                      <span>Tem uma conta?</span><a href="/">Conecte-se</a>
+                  </div>
+            </div>
+            
+        </main>
+            
+        <footer>
+                <div id="links">
+                    <a href="">SOBRE</a>
+                    <a href="">AJUDA</a>
+                    <a href="">IMPRENSA</a>
+                    <a href="">API</a>
+                    <a href="">CARREIRAS</a>
+                    <a href="">PRIVACIDADE</a>
+                    <a href="">TERMOS</a>
+                    <a href="">LOCALIZAÇÕES</a>
+                    <a href="">CONTAS MAIS RELEVANTES</a>
+                    <a href="">HASHTAGS</a>
+                    <a href="">IDIOMA</a>
+                </div>
+               
+                <span id="authors">
+                    &copy; 2020 INSTAGRAM DO FACEBOOK
+                </span>
+        </footer>
+
+    </div>
+</body>
+</html>

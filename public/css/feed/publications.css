@@ -1,0 +1,102 @@
+/* Publications */
+#feed .publications{
+    margin-top:28px;
+    border:1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+.publications #header{
+   height: 60px;
+}
+
+.publications #header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.publications #header #user {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   
+}
+
+.publications #header #user a{
+    color: black;
+}
+
+.publications #header #user img{
+   width: 32px;
+   height: 32px;
+   border-radius: 32px;
+   margin-right: 10px;
+   object-fit: cover;
+}
+
+
+.publications #header #plus{
+   height:32px;
+   margin-right: 10px;
+   font-weight: bold;
+   font-size: 20px;
+ }
+
+
+.publications #photo{
+    height:100%;
+ }
+
+
+ .publications #photo img{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+
+ }
+
+ button{
+     border: none;
+ }
+
+ .publications #footer #options{
+   display:flex;
+   margin: 5px 5px;
+   justify-content: space-between;
+ }
+
+ .publications #footer p{
+     width: 75%;
+     margin: 10px 5px;
+ }
+
+ .publications #coment{
+     height: 56px;
+     width: 100%;
+     border-top: 1px solid #dbdbdb;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    }
+
+    .publications #coment input{
+        height: 50%;
+        width: 80%;
+        border: none;
+        margin-left: 15px;
+
+       }
+
+       .publications #coment input:focus{
+        box-shadow: 0 0 0 0;
+        outline: 0;
+
+       }
+
+       .publications #coment a{
+        font-weight: bold;
+        color: rgb(59, 102, 245);
+
+       }

@@ -1,0 +1,180 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#content{
+    width: 935px;
+    margin: 0px auto 0px auto;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#cell{
+    width: 445px;
+    height: 600px;
+    position: relative;
+    top:-50px;
+    left: -75px;
+}
+
+
+#singup-box{
+    width: 350px;
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+img{
+    margin-top:22px;
+}
+
+#singup-box p{
+    width: 270px;
+    font-weight: bold;
+    color: #A1988C;
+
+}
+#input-box{
+   display: flex;
+   flex-direction: column;
+}
+
+#input-box input{
+    width: 258px;
+    height: 36px;
+    border: 1px solid #e2e0e0;
+    border-radius: 3px;
+    padding:0 0 0 5px;
+    margin-top: 5px;
+}
+
+#login{
+    width:265px;
+    height: 30px;
+    border: none;
+    color: white;
+    font-weight: 900;
+    background-color: #0095f6;
+    border-radius:3px;
+    padding: 5px 9px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+
+#ou{
+  margin-top:px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+
+.line{
+   display: block;
+   background-color:#c7c7c7;
+   width: 100px;
+   height: 1px;
+}
+
+#ou-text{
+    margin: 0 15px;
+    font-size: small;
+    color: #9e9d9d;
+    font-weight:bold;
+}
+
+#login-facebook{
+    width: 250px;
+    height: 30px;
+    color:#385185;
+    border-radius: 3px;
+    background-color:#0095F6;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+#login-facebook img{
+    width:15px;
+    height: 15px;
+    margin:0;
+}
+
+#login-facebook-text{
+    margin-left:5px;
+    color: white;
+}
+
+/* Cadrastrar Box */
+
+#login-box{
+    margin-top: 20px;
+    width: 350px;
+    height: 63px;
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#login-box a{
+    font-weight: bold;
+    color:#0095F6;
+    margin-left: 3px;
+    text-decoration: none;
+
+}
+
+#singup-box p{
+    width: 270px;
+    font-weight: bold;
+    color: #A1988C;
+
+}
+
+#singup-box small{
+    margin: 15px 0 30px 0;
+    width: 270px;
+    color:#A1988C;;
+}
+
+/* Media Queries */
+
+@media(max-width:900px){
+    #cell{
+        display: none;
+    }
+    #content{
+        width: 100%;
+        margin: 0 auto 0px auto;
+    }
+    main{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" type="text/css" href="./index/login.css">
+</head>
+<body>
+    <div id="content">
+
+        <main>
+            <div id="cell">
+                <img src="./img/celulares_login.png" alt="" height="600px">
+            </div>
+
+            <div>
+                <div id="login-box">
+                    <img src="./img/logo.png" alt="">
+                    
+                    <form action="/login" method="POST">
+                      <div id="input-box">
+                          <input name="usuario" type="text" required placeholder="Telefone, nome de usuário ou email">
+                          <input name="senha" type="password" required placeholder="Senha">
+                        </div>
+                  
+                        <button id="login" type="SUBMIT">Entrar</button>
+              
+                    </form>
+              
+                    <div id="ou">   
+                      <span class="line"></span><span id="ou-text">OU</span><span class="line"></span>
+                    </div>
+                     
+                    <a id="login-facebook" href="" disable="true">
+                       <img src="./img/facebook-logo.png"><span id="login-facebook-text">Entrar com o Facebook </span>
+                    </a>
+              
+                    <a id="recupera-senha" href=""><small>Esqueceu a senha?</small></a>
+                  </div>
+                  
+                  <div id="cadastrar-box">
+                      <span>Não tem conta?</span><a href="/cadastro">Cadastre-se</a>
+                  </div>
+            </div>
+            
+        </main>
+            
+        <footer>
+                <div id="links">
+                    <a href="">SOBRE</a>
+                    <a href="">AJUDA</a>
+                    <a href="">IMPRENSA</a>
+                    <a href="">API</a>
+                    <a href="">CARREIRAS</a>
+                    <a href="">PRIVACIDADE</a>
+                    <a href="">TERMOS</a>
+                    <a href="">LOCALIZAÇÕES</a>
+                    <a href="">CONTAS MAIS RELEVANTES</a>
+                    <a href="">HASHTAGS</a>
+                    <a href="">IDIOMA</a>
+                </div>
+               
+                <span id="authors">
+                    &copy; 2020 INSTAGRAM DO FACEBOOK
+                </span>
+        </footer>
+
+    </div>
+</body>
+</html>

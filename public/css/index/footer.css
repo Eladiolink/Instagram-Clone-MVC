@@ -1,0 +1,41 @@
+/* Footer */
+footer{
+    position: relative;
+    bottom: 0;
+    margin-bottom:20px;
+}
+
+footer #links{
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+
+}
+
+footer #links a{
+    color: #00376b;
+    font-weight: bold;
+    font-size: small;
+    text-decoration: none;
+}
+
+footer #authors{
+    color: #8e8e8e;
+    font-size: small;
+    font-weight:bold;
+}
+
+/* Media Queries */
+
+@media(max-width:900px){
+    footer{
+        margin:0 auto;
+        width:350px;
+        margin-top: 40px;
+    }
+    footer #links a{
+        margin: 5px;
+    }
+
+
+}
